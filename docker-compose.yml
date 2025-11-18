@@ -20,6 +20,6 @@ services:
       timeout: 10s
       retries: 3
   
-  network:
-    app-networks:
+  networks:
+    app-network:
       - driver: bridge
